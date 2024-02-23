@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+canvas.react-pdf__Page__canvas {
+    margin-bottom: 30px;
+}
