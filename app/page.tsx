@@ -1,15 +1,10 @@
-import React from "react";
-import Update from "./update/page";
+import PdfViewer from "@/component/PdfViewer";
 
-import PDFViewer2 from "./pdf-viewer2";
 export default function Home() {
   return (
-    <div>
-      <h1>Viewing a PDF in Next.js</h1>
-      <Update/>
-      <PDFViewer2 pdfPath="./docc.pdf" />
-    </div>
+    <main>
+      <h1>Welcome!!!</h1>
+      <PdfViewer />
+    </main>
   );
 }
-
-//https://github.com/fazt/react-pdf-tutorial/blob/master/src/App.jsx
